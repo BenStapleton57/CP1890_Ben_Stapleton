@@ -23,4 +23,6 @@ small_circle = Circle(10)
 big_circle = Circle(500)
 
 print(small_circle.get_area())
+small_circle.radius_length = 5
+print(small_circle.get_area())
 print(big_circle.get_area())
