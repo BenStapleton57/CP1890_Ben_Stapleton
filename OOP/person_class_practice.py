@@ -1,8 +1,7 @@
 class Person:
-    def __init__(self,fname: str, lname: str, full_name:str ):
+    def __init__(self,fname: str, lname: str ):
         self.__fname = fname
         self.__lname = lname
-        self.__full_name = full_name
 
     @property
     def fname(self):
@@ -17,6 +16,6 @@ class Person:
         return f'{self.__fname} {self.__lname}'
 
 
-ben = Person("Ben", "Stapleton", "")
+ben = Person("Ben", "Stapleton")
 
 print (ben.full_name)
